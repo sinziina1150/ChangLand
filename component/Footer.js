@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment } from "react";
 import styles from "../styles/Footer.module.css";
@@ -6,6 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 export default function Footer() {
   return (
     <Fragment>
@@ -14,7 +16,9 @@ export default function Footer() {
           <div className={styles.FooterLogo}>
             <div className={styles.Image}>
               <img
-                src={"/image/Chang-Land_Logo-and-Icon222-187x187x0x5x187x176x1659802894.png"}
+                src={
+                  "/image/Chang-Land_Logo-and-Icon222-187x187x0x5x187x176x1659802894.png"
+                }
                 alt=""
               />
             </div>
@@ -48,11 +52,13 @@ export default function Footer() {
                   margin: "10px",
                 }}
               >
-                <FontAwesomeIcon icon={faTwitter} />
+                <Link href={"https://www.facebook.com/profile.php?id=100083012933013"}>
+                  <FontAwesomeIcon icon={faTwitter} />
+                </Link>
               </div>
 
               <div
-              className={styles.instagram}
+                className={styles.instagram}
                 style={{
                   width: "50px",
                   height: "50px",
@@ -60,7 +66,7 @@ export default function Footer() {
                   display: "flex",
                   justifyContent: "center",
                   margin: "10px",
-                  borderRadius: "50%"
+                  borderRadius: "50%",
                 }}
               >
                 <FontAwesomeIcon icon={faInstagram} />
