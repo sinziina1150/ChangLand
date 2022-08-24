@@ -1,129 +1,281 @@
-.container {
-  padding: 0 2rem;
+.fristInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.TextWelCome {
+  color: white;
+  padding: 5px 40px 5px 50px;
+}
+
+.buttonClick {
+  margin: 20px 0;
+}
+
+.ClickButton {
+  padding: 18px 45px;
+  background-color: #f5bd13;
+  border-radius: 60px;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 15px;
+}
+.ClickButton:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+}
+
+.rulers {
   display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+}
+.icon {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.rulers:before,
+.rulers:after {
+  content: "";
+  border-bottom: 1px solid gray;
+  flex: 1 1;
+  margin: auto;
+}
+.second {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 593;
+  align-items: center;
+}
+.TextBox {
+  display: flex;
+  box-sizing: border-box;
+  flex: 0 1 auto;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  color: white;
+  line-height: 0;
+  letter-spacing: 1.5px;
+  font-weight: 100;
 }
 
-.footer {
+.CartInfo {
+  width: 100%;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  height: 593;
   align-items: center;
 }
 
-.footer a {
+.TextHeader {
+  text-align: center;
+  box-sizing: border-box;
+  color: #f5bd13;
+  width: 100%;
+  font-family: inherit;
+  margin: 50px;
+}
+
+.CartBox {
+  text-align: center;
+  box-sizing: border-box;
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.CartInfo {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.cartButton {
+  padding: 14px 42px;
+  border-radius: 20px;
+  border: none;
+  background: gray;
+  color: black;
+  cursor: pointer;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.cartButton:hover {
+  background-color: rgb(70, 192, 192);
+  color: white;
+  transition: 0.3s ease-in;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.cart {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
 }
 
-.title,
-.description {
+.CartLogo {
+  width: 265px;
+  height: 155px;
+}
+
+.cartText {
+  width: 276px;
+  height: 276px;
+}
+
+.RoadMap {
+  width: 100%;
+  display: flex;
+  height: 1900px;
+  color: white;
+  flex-direction: column;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.TextHeaderRoadmap{
+  text-align: center;
+  width: 100%;
+}
+.LineRoadMap{
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.LineRoadMap h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: #fff;
+  margin: 10px 0;
 }
 
-.grid {
+.imageRoadMap img{
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 600px;
+}
+
+.LandNFT {
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  height: 500px;
+  color: white;
+  flex-direction: column;
+  text-align: center;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.LandNFTText h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: #f5bd13;
+  margin: 10px 0;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.LandNFTText{
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.LoadNFTinfo{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.BoxLandInfo{
+  width: 450px;
+  height: 450px;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.BoxLandInfo img {
+  border-radius: 40px;
+  margin: 20px 0;
 }
 
-@media (max-width: 600px) {
-  .grid {
+.BoxLandInfo span {
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.MyTeam{
+  width: 100%;
+  margin: 30px 0;
+  color: white;
+}
+
+.TextTeam{
+  width: 100%;
+  text-align: center;
+}
+
+.MyTeamInfo{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+.BoxInfo img {
+  box-shadow: 1px 2px 4px 0px rgb(255 255 255);
     width: 100%;
-    flex-direction: column;
-  }
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.DownWhite{
+  width: 100%;
+  margin: 50px 0;
 }
+
+.DownLoad {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+}
+
+.DownLoad:before,
+.DownLoad:after {
+  content: "";
+  border-bottom: 2px solid #fff;
+  flex: 1 1;
+  margin: auto;
+}
+
+.DownLoad button {
+  background: #f5bd13;
+  padding: 14px 42px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin: 20px;
+}
+
+
+.Linehr {
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+
+

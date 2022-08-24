@@ -1,0 +1,57 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .NavMenu {
+    display: flex;
+    color: white;
+  }
+  
+  .NavInfo {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 14px;
+    align-items: center;
+  }
+  
+  .NavbarTextInfo {
+    font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.7;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+  
+  
+  .Navbar {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+  
+  }
+  
+  .ItemNavbar {
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  .NavbarTextInfo:hover{
+      border-bottom: 1px solid rgb(102, 102, 102);
+  }
+  
+  .NavbarTextInfo{
+      padding: 5px 0;
+  }
+  
+  
+  
+  
