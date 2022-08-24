@@ -14,7 +14,7 @@ export default function Footer() {
           <div className={styles.FooterLogo}>
             <div className={styles.Image}>
               <img
-                src="http://changland.io/wp-content/uploads/brizy/imgs/Chang-Land_Logo-and-Icon222-187x187x0x5x187x176x1659802894.png"
+                src={"/image/Chang-Land_Logo-and-Icon222-187x187x0x5x187x176x1659802894.png"}
                 alt=""
               />
             </div>

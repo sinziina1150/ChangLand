@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Image from 'next/image'
 import { Fragment } from 'react'
@@ -51,7 +52,7 @@ export default function Home() {
         </div>
         <div className={styles.Datagit}>
           <img
-            src="http://changland.io/wp-content/uploads/2022/08/Sequence-012-2.gif"
+            src="/image/Sequence-012-2.gif"
             style={{ width: "100%", height: "345px" }}
             alt=""
           />
@@ -73,7 +74,7 @@ export default function Home() {
       <section className={styles.second}>
         <div className={styles.ImageInfo}>
           <img
-            src="http://changland.io/wp-content/uploads/brizy/imgs/2-555x555x0x3x555x549x1660668552.png"
+            src="/image/2-555x555x0x3x555x549x1660668552.png"
             alt=""
           />
         </div>
@@ -199,7 +200,7 @@ export default function Home() {
           <div className={styles.cart}>
             <div className={styles.CartLogo}>
               <img
-                src="http://changland.io/wp-content/uploads/brizy/imgs/1-149x149x3x0x143x149x1660919164.png"
+                src="image/1-149x149x3x0x143x149x1660919164.png"
                 alt=""
               />
             </div>
@@ -238,7 +239,7 @@ export default function Home() {
           <div className={styles.cart}>
             <div className={styles.CartLogo}>
               <img
-                src="http://changland.io/wp-content/uploads/brizy/imgs/12-copy-181x181x0x10x181x162x1660919062.png"
+                src="image/12-copy-181x181x0x10x181x162x1660919062.png"
                 alt=""
               />
             </div>
@@ -278,7 +279,7 @@ export default function Home() {
           <div className={styles.cart}>
             <div className={styles.CartLogo}>
               <img
-                src="http://changland.io/wp-content/uploads/brizy/imgs/Present_Chang-Land_Rev2-01-153x151x4x0x145x151x1659480848.png"
+                src="image/Present_Chang-Land_Rev2-01-153x151x4x0x145x151x1659480848.png"
                 alt=""
               />
             </div>
@@ -313,7 +314,7 @@ export default function Home() {
           <div className={styles.cart}>
             <div className={styles.CartLogo}>
               <img
-                src="http://changland.io/wp-content/uploads/brizy/imgs/Present_Chang-Land_Rev2-01-153x151x4x0x145x151x1659480848.png"
+                src="image/Present_Chang-Land_Rev2-01-153x151x4x0x145x151x1659480848.png"
                 alt=""
               />
             </div>
@@ -359,19 +360,19 @@ export default function Home() {
         </div>
         <div className={styles.imageRoadMap}>
           <img
-            src="http://changland.io/wp-content/uploads/2022/08/roadmap1-01.png"
+            src="image/roadmap1-01.png"
             alt=""
           />
         </div>
         <div className={styles.imageRoadMap}>
           <img
-            src="http://changland.io/wp-content/uploads/2022/08/roadmap2-02-2.png"
+            src="image/roadmap2-02-2.png"
             alt=""
           />
         </div>
         <div className={styles.imageRoadMap}>
           <img
-            src="http://changland.io/wp-content/uploads/2022/08/roadmapP3-03-scaled.jpg"
+            src="image/roadmapP3-03-scaled.jpg"
             alt=""
           />
         </div>
@@ -388,21 +389,21 @@ export default function Home() {
         <div className={styles.LoadNFTinfo}>
           <div className={styles.BoxLandInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/land-1b-5-scaled-536x301x88x0x360x301x1659854233.jpg"
+              src="image/land-1b-5-scaled-536x301x88x0x360x301x1659854233.jpg"
               alt=""
             />
             <span>Bangsaen Beach</span>
           </div>
           <div className={styles.BoxLandInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/land-1b-4-scaled-536x301x88x0x360x301x1659854207.jpg"
+              src="image/land-1b-4-scaled-536x301x88x0x360x301x1659854207.jpg"
               alt=""
             />
             <span>Saiyok Waterfall</span>
           </div>
           <div className={styles.BoxLandInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/land-1b-1-scaled-541x304x90x0x361x304x1659854376.jpg"
+              src="image/land-1b-1-scaled-541x304x90x0x361x304x1659854376.jpg"
               alt=""
             />
             <span>Khoyai National Park</span>
@@ -418,7 +419,7 @@ export default function Home() {
         <div className={styles.MyTeamInfo}>
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/002-199x216x17x0x165x216x1660311502.png"
+              src="image/002-199x216x17x0x165x216x1660311502.png"
               alt=""
             />
             <p>Rangsan A.</p>
@@ -427,7 +428,7 @@ export default function Home() {
 
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/004-175x216x5x0x165x216x1660310691.png"
+              src="image/004-175x216x5x0x165x216x1660310691.png"
               alt=""
             />
             <p>Sitthidch T.</p>
@@ -435,7 +436,7 @@ export default function Home() {
           </div>
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/005-165x237x0x10x165x216x1660310525.png"
+              src="image/005-165x237x0x10x165x216x1660310525.png"
               alt=""
             />
             <p>Poramin S.</p>
@@ -443,7 +444,7 @@ export default function Home() {
           </div>
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/001-174x216x4x0x165x216x1660310349.png"
+              src="image/001-174x216x4x0x165x216x1660310349.png"
               alt=""
             />
             <p>Jirayut J.</p>
@@ -451,7 +452,7 @@ export default function Home() {
           </div>
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/003-169x216x2x0x165x216x1660309853.png"
+              src="image/003-169x216x2x0x165x216x1660309853.png"
               alt=""
             />
             <p>Peti S.</p>
@@ -459,7 +460,7 @@ export default function Home() {
           </div>
           <div className={styles.BoxInfo}>
             <img
-              src="http://changland.io/wp-content/uploads/brizy/imgs/006-171x213x4x0x163x213x1660311639.png"
+              src="image/006-171x213x4x0x163x213x1660311639.png"
               alt=""
             />
             <p>Popcorn</p>
